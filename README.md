@@ -1,4 +1,4 @@
-# Arvore-Decisao
+# Arvore-Decisao / Para melhor visualização, utilize o modo 'Code' do arquivo README!
 
 Esta atividade tem como objetivo a implementação de um algoritmo de Árvore de Decisão, baseado na análise do desafio 'Iris Dataset', encontrado na plataforma Kaggle, onde é necessário avaliar o desempenho e ajustar os parâmetros para observarmos os impactos que podem ocorrer nas previsõers.
 
@@ -93,4 +93,5 @@ for k in neighbors_values:
 !Imagem da classificação utilizando o modelo k-NN!
 ![diferentes_valores_k_modelo_k-NN](https://github.com/user-attachments/assets/78380691-9acf-424a-b175-a92b3981075b)
 
-
+Analisando todos estes dados e resultados, o melhor valor para max_depth é 3, pois possui um bom equilíbrio entre complexidade e capacidade genérica. Ele é profundo o bastante para capturar padrões importantes nos dados, mas não tão profundo a ponto de causar overfitting, onde o modelo se ajusta aos dados de treino e perde desempenho nos dados de teste; Pensando no desempenho, os valores de max_depth menores ou iguais a 2, podem ser muito simples e não abordar toda a complexidade dos dados, enquanto que os valores maiores(por exemplo 10) podem levar ao overfitting.
+Portanto, o valor recomendado para o parâmetro max_depth é 3, pois oferece o melhor desempenho, equilibrando a complexidade do modelo e a capacidade de generalização.
